@@ -12,9 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   open_iconic_flutter: "0.3.0"
+
   video_player:
     git:
-      url: http://gitlab.pettersonapps.com/android/video_player.git
+      url: https://github.com/MeshkaniMohammad/video_player-master.git
       ref: master
   wakelock: ^0.2.0+1
   flutter_mdns_plugin:
