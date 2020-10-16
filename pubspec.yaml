@@ -1,0 +1,39 @@
+name: videoplay
+description: A new Flutter plugin.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  open_iconic_flutter: "0.3.0"
+  video_player:
+    git:
+      url: http://gitlab.pettersonapps.com/android/video_player.git
+      ref: master
+  wakelock: "0.1.4+1"
+  flutter_mdns_plugin:
+    git:
+      url: https://github.com/terrabythia/flutter_mdns_plugin.git
+      ref: master
+  dart_chromecast: ^0.1.2
+  shared_preferences: ^0.5.10
+  observable: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.flutter.videoplay
+        pluginClass: VideoPlayPlugin
+      ios:
+        pluginClass: VideoPlayPlugin
