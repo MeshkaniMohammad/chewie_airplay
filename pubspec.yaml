@@ -16,13 +16,13 @@ dependencies:
     git:
       url: http://gitlab.pettersonapps.com/android/video_player.git
       ref: master
-  wakelock: "0.1.4+1"
+  wakelock: ^0.2.0+1
   flutter_mdns_plugin:
     git:
       url: https://github.com/terrabythia/flutter_mdns_plugin.git
       ref: master
-  dart_chromecast: ^0.1.2
-  shared_preferences: ^0.5.10
+  dart_chromecast: ^0.2.4
+  shared_preferences: ^0.5.12+2
   observable: any
 
 dev_dependencies:
