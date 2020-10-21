@@ -17,7 +17,7 @@ dependencies:
     git:
       url: https://github.com/MeshkaniMohammad/video_player-master.git
       ref: master
-  wakelock: ^0.2.0+1
+  wakelock: ^0.1.4+1
   flutter_mdns_plugin:
     git:
       url: https://github.com/terrabythia/flutter_mdns_plugin.git
