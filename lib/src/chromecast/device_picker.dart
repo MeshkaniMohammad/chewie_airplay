@@ -38,8 +38,8 @@ class _DevicePickerState extends State<DevicePicker> {
         type: serviceInfo.type,
         host: serviceInfo.hostName,
         port: serviceInfo.port);
-    _streamSubscriptions
-        .add(castDevice.changes.listen((_) => _deviceDidUpdate(castDevice)));
+    // _streamSubscriptions
+    //     .add(castDevice.changes.listen((_) => _deviceDidUpdate(castDevice)));
     return castDevice;
   }
 
