@@ -144,10 +144,10 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "5a1fd8b9b1c29049697b7af7e271a3180d0ba9aa"
+      resolved-ref: "694cdaa70d2d4ace8f139266ee51a283e1a4423c"
       url: "https://github.com/terrabythia/flutter_mdns_plugin.git"
     source: git
-    version: "0.0.2"
+    version: "0.0.3"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -434,7 +434,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "9b4075f3dd9461ab58d31cfa4673c20b1606b71a"
+      resolved-ref: e0403dac819c061dc851900db52e34c9fcd71c4e
       url: "https://github.com/MeshkaniMohammad/video_player-master.git"
     source: git
     version: "0.10.11+2"
@@ -451,7 +451,7 @@ packages:
       name: video_player_web
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.4"
+    version: "0.1.4+1"
   wakelock:
     dependency: "direct main"
     description:
